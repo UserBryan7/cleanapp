@@ -1,0 +1,47 @@
+src/main/java/com/esfe/cleanapp
+
+CleanappApplication.java → clase principal para ejecutar la aplicación.
+
+domain/model
+
+Usuario.java → entidad Usuario.
+
+domain/port/in
+
+CheckDbHealthUseCase.java → puerto de entrada para verificar la salud de la BD.
+
+domain/port/out
+
+SqlHealthPort.java → puerto de salida hacia la BD.
+
+application/usecase
+
+CheckDbHealthService.java → lógica para verificar la conexión a la BD.
+
+infrastructure/config
+
+BeanConfig.java → configuración de beans.
+
+infrastructure/persistence/adapter
+
+SqlHealthAdapter.java → adaptador para interactuar con la BD.
+
+infrastructure/web
+
+HealthController.java → API REST para verificar la salud del sistema.
+
+src/main/resources
+
+application.yml y application.properties → configuración del proyecto.
+
+src/test
+
+Pruebas unitarias y de integración.
+
+Funcionalidades principales
+
+Gestión de Usuarios.
+
+API REST para la interacción con el sistema.
+
+Health Check: verificación de la salud de la base de datos y de la aplicación.
